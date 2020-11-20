@@ -8,11 +8,13 @@ Instagram clone tech-stack
   <li>React</li>
 </ul>
 
-To run this project 
-cd server npm i
-cd web npm i
-API KEYS in server->Keys
-
+To run this project
+<ul>
+  <li>cd server->npm install</li>
+  <li>cd web->npm install</li>
+  <li>API KEYS in cdserver->Keys</li>
+</ul>
+ 
 This application got 
 1) Infinite scrolling
 2) Request accept/decline
