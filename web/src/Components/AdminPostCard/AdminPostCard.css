@@ -1,0 +1,7 @@
+.item {
+    margin: 0.5rem 0;
+    width: 32%;
+    height: 33vh;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }

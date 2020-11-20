@@ -1,0 +1,128 @@
+.Profile_Page_Container {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+.Profile_Request_Container{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  background-color: #fff;
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+
+.Profile_Button_Request_Container{
+  display: flex;
+  flex: 1;
+  margin-top: 1rem;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Profile__Container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  padding-top: 10px;
+}
+
+.Profile_Img_Container {
+}
+
+.Profile_Img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.follow_button{
+  min-width: 100px;
+  height: 40px;
+  background-color: #0095f6;
+  font-size: 1rem;
+  color: white;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}
+.unFollow_button{
+  width: 100px;
+  height: 40px;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Profile_Info_Container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.Profile_status_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Profile_Info {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.gallery {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.item {
+  margin: 0.5rem 0;
+  width: 32%;
+  height: 33vh;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+.title_text {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.Profile_Info_Text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.notFollowContainer {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}

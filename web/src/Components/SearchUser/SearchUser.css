@@ -1,0 +1,33 @@
+.searchUserContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 48%;
+  margin: 0.5rem 0;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.searchUserImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.searchUserImgName {
+    font-family: "Montserrat", sans-serif;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    max-width: 100%;
+    letter-spacing: 1.4px;
+    text-overflow: ellipsis;
+    word-wrap:break-word;
+    display:block;
+    user-select: none;
+    color: black;
+}

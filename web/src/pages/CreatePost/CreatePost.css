@@ -1,0 +1,36 @@
+.Create_Post_Page_Container {
+  max-width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Create_Post_Card {
+  display: flex;
+  width: 60%;
+  justify-content: flex-start;
+  flex-direction: column;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.Upload_Image_Container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.Upload_Image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

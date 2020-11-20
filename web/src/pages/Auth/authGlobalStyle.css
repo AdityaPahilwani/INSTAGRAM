@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+  height: calc(100vh - 56px);
+  background-image: linear-gradient(to right, #a6c0fe, #f68084);
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 450px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 20;
+  border-radius: 10px;
+  padding: 1.2rem 1.2rem;
+  @media (max-width: 600px) {
+    padding: 1rem
+  }
+}
+
+.input {
+  outline: none;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 1.6rem;
+  font-family: inherit;
+  border-bottom: 2px solid #ccc;
+  margin: 0.6rem 0rem;
+  letter-spacing: 1.4px;
+}
+
+.input:focus {
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+.instaGram {
+  color: black;
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-family: "Grand Hotel", cursive;
+}
+
+.descriptionText {
+  color: black;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.authText{
+  color: black;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.auth-nav-link{
+  text-decoration: none;
+  color: #155bff;
+  font-size: 1.2rem;
+}
+
+.authButton {
+  border: none;
+  width: 100%;
+  background-color: #daeaf6;
+  padding: 0.5rem 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.Sign_up_avatar{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  
+  overflow: hidden;
+}

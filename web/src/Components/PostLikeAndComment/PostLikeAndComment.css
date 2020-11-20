@@ -1,0 +1,73 @@
+.Post_Detail_Container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-items: flex-start;
+  padding: 0 1rem;
+}
+.Post_Profile_Info_Container .Post_Title_Text {
+  margin: 0 1rem;
+}
+.Post_Title_Text {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: bold;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 1.4px;
+  text-overflow: ellipsis;
+  user-select: none;
+  text-decoration: none;
+  color: black;
+}
+
+.Post_Title_Comment_Text {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  /* margin: 0rem 0.4rem; */
+  letter-spacing: 1.4px;
+  max-width: 70%;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  user-select: none;
+}
+
+.Post_comment_text{
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  color: grey;
+  letter-spacing: 1.4px;
+  white-space: pre-wrap;
+  text-overflow: ellipsis;
+  user-select: none;
+  margin: 0.2rem 0;
+}
+
+.inputComment {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  width: 80%;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #ccc;
+  height: 100%;
+  padding: 5px 0;
+  letter-spacing: 1.4px;
+  overflow-wrap: break-word
+}
+.commentButton {
+  border: none;
+  width: 20%;
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: rgb(107, 165, 219);
+  height: 100%;
+}

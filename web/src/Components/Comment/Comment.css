@@ -1,0 +1,62 @@
+.commentContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: auto;
+  max-width: 100%;
+  margin: 0.2rem 0;
+}
+
+.comment_Container {
+  display: flex;
+  flex: 1;
+  max-width: 80%;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  white-space: pre-wrap;
+}
+
+.commentImgContainer {
+  height: auto;
+  max-width: 20%;
+  overflow: hidden;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Modal_postedBy_Text {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+  max-width: 100%;
+  letter-spacing: 1.4px;
+  text-overflow: ellipsis;
+  word-wrap:break-word;
+  display:block;
+  user-select: none;
+  color: black;
+  }
+
+.Modal_Comment_Text {
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+  font-size: 1rem;
+  letter-spacing: 1.4px;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  word-wrap:break-word;
+  display:block;
+  user-select: none;
+}
