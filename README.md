@@ -18,7 +18,7 @@ To run this project
 This application got 
 1) Infinite scrolling
 2) Request accept/decline
-3) Follow/unfllow
+3) Follow/unfollow
 4) Auth with jwt
 5) Like,Comment
 6) Track of request
