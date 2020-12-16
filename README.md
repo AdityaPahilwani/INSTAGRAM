@@ -8,13 +8,16 @@ Instagram clone tech-stack
   <li>React</li>
 </ul>
 
+<b>Demo-link</b>
+https://youtu.be/4rCbSo70jco
+
 To run this project
 <ul>
   <li>cd server->npm install</li>
   <li>cd web->npm install</li>
   <li>API KEYS in cdserver->Keys</li>
 </ul>
- 
+
 This application got 
 1) Infinite scrolling
 2) Request accept/decline
@@ -93,6 +96,5 @@ This application got
 you can check the application here:
 https://instagramclone8989.herokuapp.com/login
 //Issue with timeout from heroku side 
-Demo-link
-https://youtu.be/4rCbSo70jco
+
 <br>
