@@ -1,4 +1,4 @@
-# INSTAGRAM-CLONE-MERN
+# INSTAGRAM
 
 Instagram clone tech-stack
 <ul>
